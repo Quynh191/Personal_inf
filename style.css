@@ -1,0 +1,30 @@
+.all{
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+
+}
+.all >h1, .Information{
+    margin: 10px;
+    padding: 5px;
+}
+
+.Information{
+   background: white;
+
+}
+
+.Information > h2, ul{
+    margin: 4px;
+  font-size: 90%;
+} 
+.Information >div, img{
+   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: 50%;
+
+}
